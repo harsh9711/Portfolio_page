@@ -2,6 +2,7 @@ import '@/styles/globals.css';
 import { Montserrat } from 'next/font/google';
 import Head from 'next/head';
 import Navbar from '@/Components/Navbar';
+import Footer from '@/Components/Footer';
 const montserrat = Montserrat({
   subsets: ['latin'], // Corrected property name
   variable: '--font-mont'
@@ -17,6 +18,7 @@ export default function App({ Component, pageProps }) {
       <main className={`${montserrat.variable} font-mont bg-light w-full min-h-screen`}>
        <Navbar/>
         <Component {...pageProps} />
+        <Footer/>
       </main>
     </>
   );
