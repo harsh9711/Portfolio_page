@@ -23,7 +23,7 @@ export default function App({ Component, pageProps }) {
        <AnimatePresence mode="wait">
         <Component key={router.asPath} {...pageProps}/>
        </AnimatePresence>
-        <Component {...pageProps} />
+        {/* <Component {...pageProps} /> */}
         <Footer/>
       </main>
     </>

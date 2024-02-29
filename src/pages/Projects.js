@@ -67,12 +67,11 @@ const Projects = () => {
                 <title>CodeBucks | Projects Page</title>
                 <meta name="description" content="any description" />
             </Head>
-            <TransitionEffect/>
+            <TransitionEffect />
             <main className='w-full mb-16 flex flex-col items-center justify-center dark:text-light'>
                 <Layout className='pt-16'>
-                    <AnimatedText text="Imagination Trumps Knowledge!"
-                    className="mb-16 1g: !text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"/>
-                     <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
+                    <AnimatedText text="Imagination Trumps Knowledge!" className="mb-16 text-7xl sm:mb-8 sm:text-6xl xs:text-4xl" />
+                    <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
                         <div className='col-span-12 sm:col-span-12'>
                             <FeaturedProject
                                 title="YOUTUBE"
@@ -88,44 +87,40 @@ const Projects = () => {
                             <Project
                                 title="OCHI"
                                 img={project1}
-                                // summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
                                 link="https://ochi-by-vite.vercel.app/"
                                 github="https://github.com/harsh9711/OCHI-BY-VITE-"
                                 type="Lenskart Project"
                             />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
-                            {/* Project2 */}
+                            {/* Project3 */}
                             <Project
                                 title="Crypto Screener Application"
                                 img={project4}
-                                // summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
                                 link="https://youthoob-d.vercel.app/"
                                 github=""
                                 type="Youtube Clone Project"
                             />
                         </div>
                         <div className='col-span-6'>
+                            {/* Project4 */}
                             <Project
                                 title="TRIPPY"
                                 img={project2}
-                                // summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
                                 link="https://responsive-trip.vercel.app/"
                                 github="https://github.com/harsh9711/responsive-trip"
                                 type="Travel Website Project"
                             />
-                            {/* Featured Project */}
                         </div>
                         <div className='col-span-6'>
+                            {/* Project5 */}
                             <Project
                                 title="MI WEBSITE"
                                 img={project3}
-                                // summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
                                 link="https://mi-clone-app.netlify.app/"
                                 github="https://github.com/harsh9711/miclone2"
                                 type="Clone Project"
                             />
-                            {/* Featured Project */}
                         </div>
                     </div>
                 </Layout>
@@ -133,5 +128,7 @@ const Projects = () => {
         </>
     );
 };
+
+
 
 export default Projects;

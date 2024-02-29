@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import Logo from '@/Components/Logo';
 import { useRouter } from 'next/router';
-import { DribbbleIcon, GithubIcon, LinkedInIcon, PinterestIcon, SunIcon, MoonIcon, TwitterIcon } from './Icon';
+import { FacebookIcon, GithubIcon, LinkedInIcon, SunIcon, MoonIcon, TwitterIcon, InstagramIcon } from './Icon';
 import { motion } from 'framer-motion';
 import useThemeSwitcher from './hooks/useThemeSwitcher';
 
@@ -61,26 +61,26 @@ const Navbar = () => {
                         {/* <CustomLink href="/contact" title="Articles" className='ml-4' /> */}
                     </nav>
                     <nav className='flex items-center justify-between flex-wrap'>
-                        <motion.a href="/" target={"_blank"}
+                        <motion.a href="https://twitter.com/Harsh_15may" target={"_blank"}
                             whileHover={{ y: -2 }}
                             whileTap={{ scale: 0.9 }}
                             className="w-6 mx-3"><TwitterIcon /></motion.a>
-                        <motion.a href="/about" target={"_blank"}
+                        <motion.a href="https://github.com/harsh9711" target={"_blank"}
                             whileHover={{ y: -2 }}
                             whileTap={{ scale: 0.9 }}
                             className="w-6 mx-3"><GithubIcon /></motion.a>
-                        <motion.a href="/Projects"
+                        <motion.a href="https://www.linkedin.com/in/harsh-sachdeva-676b24211/"
                             whileHover={{ y: -2 }}
                             whileTap={{ scale: 0.9 }}
                             className="w-6 mx-3"><LinkedInIcon /></motion.a>
-                        <motion.a href="/Projects"
+                        <motion.a href="https://www.facebook.com/harshsachdeva15"
                             whileHover={{ y: -2 }}
                             whileTap={{ scale: 0.9 }}
-                            className="w-6 mx-3"><PinterestIcon /></motion.a>
-                        <motion.a href="/Projects"
+                            className="w-6 mx-3"><FacebookIcon /></motion.a>
+                        <motion.a href="https://www.instagram.com/harshsachdeva9711/"
                             whileHover={{ y: -2 }}
                             whileTap={{ scale: 0.9 }}
-                            className="w-6 mx-3"><DribbbleIcon /></motion.a>
+                            className="w-6 mx-3"><InstagramIcon/></motion.a>
 
                         <button
                             onClick={() => setMode(mode === "light" ? "dark" : "light")}
@@ -108,29 +108,24 @@ const Navbar = () => {
                                 <CustomMobileLink href="/" title="Home" className='' toggle={handleClick} />
                                 <CustomMobileLink href="/about" title="About" className='' toggle={handleClick} />
                                 <CustomMobileLink href="/Projects" title="Projects" className='' toggle={handleClick} />
-                                {/* <CustomLink href="/contact" title="Articles" className='ml-4' /> */}
                             </nav>
                             <nav className='flex items-center justify-between flex-wrap mt-2'>
-                                <motion.a href="/" target={"_blank"}
+                                <motion.a href="https://twitter.com/Harsh_15may" target={"_blank"}
                                     whileHover={{ y: -2 }}
                                     whileTap={{ scale: 0.9 }}
                                     className="w-6 mx-3 sm:mx-1"><TwitterIcon /></motion.a>
-                                <motion.a href="/about" target={"_blank"}
+                                <motion.a href="https://github.com/harsh9711" target={"_blank"}
                                     whileHover={{ y: -2 }}
                                     whileTap={{ scale: 0.9 }}
                                     className="w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1"><GithubIcon /></motion.a>
-                                <motion.a href="/Projects"
+                                <motion.a href="https://www.linkedin.com/in/harsh-sachdeva-676b24211/"
                                     whileHover={{ y: -2 }}
                                     whileTap={{ scale: 0.9 }}
                                     className="w-6 mx-3 sm:mx-1"><LinkedInIcon /></motion.a>
-                                <motion.a href="/Projects"
+                                <motion.a href="https://www.facebook.com/harshsachdeva15"
                                     whileHover={{ y: -2 }}
                                     whileTap={{ scale: 0.9 }}
-                                    className="w-6 mx-3 bg-light rounded-full sm:mx-1"><PinterestIcon /></motion.a>
-                                <motion.a href="/Projects"
-                                    whileHover={{ y: -2 }}
-                                    whileTap={{ scale: 0.9 }}
-                                    className="w-6 ml-3 sm:mx-1 "><DribbbleIcon /></motion.a>
+                                    className="w-6 mx-3 bg-light rounded-full sm:mx-1"><FacebookIcon/></motion.a>
 
                                 <button
                                     onClick={() => setMode(mode === "light" ? "dark" : "light")}

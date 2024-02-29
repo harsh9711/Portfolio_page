@@ -44,36 +44,33 @@ bg-dark origin-top dark:bg-light md:w-[2px] md:left-[30px] xs:left-[20px]"/>
 items-start justify-between ml-4 xs:ml-2">
                     <Details
                         position="Software Engineer"
-                        company="Google"
-                        companyLink="www.google.com"
-                        time="2022-Present" address="Mountain View, CA"
-                        work="Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization."
+                        company="QBACK"
+                        companyLink="https://www.qback.ai/"
+                        time="2023" address="Banglore"
+                        work="Developed 20 web pages using Next.js, Material UI, TypeScript,
+Tailwind, MongoDB.
+● Executed website development from raw and overall backend tasks.."
                     />
                     <Details
-                        position="Software Engineer" company="Google"
-                        companyLink="www.google.com"
-                        time="2022-Present" address="Mountain View, CA"
-                        work="Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization."
+                        position="Frontend Developer" company="Outvision Technologies Private Ltd"
+                        companyLink=""
+                        time="2022-2023" address="Delhi"
+                        work="Engineered responsive web pages using React, Material UI, and CSS,
+resulting in a 40% increase in user engagement metrics and a 25%
+boost in conversion rates within the e-commerce sector.
+● Mainly work in website maintenance and overall works."
                     />
                     <Details
-                        position="Software Engineer" company="Google"
-                        companyLink="www.google.com"
-                        time="2022-Present" address="Mountain View, CA"
-                        work="Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization."
+                        position="Web Development and Designing Intern" company="The Sparks Foundation"
+                        companyLink="https://www.thesparksfoundationsingapore.org/"
+                        time="2022" address="Banglore"
+                        work="Sparks Foundation Web Development and Designing Intern  Crafted 10 Web Pages in React and CSS. Provided 2 components of the login and signup page.Tech Stack Used: React.js , CSS , Bootstrap , Material UI "
                     />
                     <Details
-                        position="Software Engineer" company="Google"
-                        companyLink="www.google.com"
-                        time="2022-Present" address="Mountain View, CA"
-                        work="Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization."
+                        position="Software Engineer" company="NVIDIA"
+                        companyLink="https://www.nvidia.com/en-in/about-nvidia/#slide-14-095fee10"
+                        time="2021-2022" address="Delhi"
+                        work="NVIDIA pioneered accelerated computing to tackle challenges no one else can solve. Our work in AI and digital twins is transforming the world's largest industries and profoundly impacting society."
                     />
 
                 </ul>

@@ -8,7 +8,7 @@ import { LinkArrow } from '@/Components/Icon'
 import HireMe from '@/Components/HireMe'
 import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
 
-export default function Home() {
+const index = () => {
   return (
     <>
       <Head>
@@ -31,13 +31,13 @@ export default function Home() {
                 Explore my latest projects and articles, showcasing my expertise in React. js and web development.
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
-  <Link href="/HarshSachdeva.pdf" target={"_blank"} className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark
+                <Link href="/HarshSachdeva.pdf" target={"_blank"} className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark
 dark:bg-light dark:text-dark
 hover:dark: border-light
 hover:dark:bg-dark
 hover:dark:text-light md:p-2 md:px-4 md:text-base" download={true}>Resume
                   <LinkArrow className={"w-6 ml-1"} /></Link>
-                <Link href="harsh9711904891@gmail.com" target={"_blank"}
+                <Link href="/contact" target={"_blank"}
                   className="ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base
                  ">Contact</Link>
               </div>
@@ -46,6 +46,7 @@ hover:dark:text-light md:p-2 md:px-4 md:text-base" download={true}>Resume
         </Layout>
         <HireMe />
 
+
         <div className='absolute right-8 bottom-8 inline-block w-24 md:hidden'>
           <Image src={lightBulb} alt="Codebucks" className='w-full h-auto' />
         </div>
@@ -53,3 +54,5 @@ hover:dark:text-light md:p-2 md:px-4 md:text-base" download={true}>Resume
     </>
   )
 }
+
+export default index
